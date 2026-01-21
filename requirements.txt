@@ -1,0 +1,25 @@
+# Core app framework
+streamlit
+
+# ML and preprocessing
+scikit-learn
+xgboost
+joblib
+
+# Data handling
+pandas
+numpy
+
+# Visualization
+matplotlib
+seaborn
+plotly
+
+# Utility and encoding
+category_encoders
+
+# Model evaluation and metrics
+imbalanced-learn
+
+# Optional: for Jupyter/EDA work (if you load .ipynb or use analysis)
+notebook

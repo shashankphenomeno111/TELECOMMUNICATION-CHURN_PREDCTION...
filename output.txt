@@ -1,0 +1,38 @@
+C:\Users\Shashank\OneDrive\Desktop\Updated projects\Updated Data-science-Project-TELE-COMMUNICATION--main\Data-science-Project-TELE-COMMUNICATION--main\convert_to_pdf.py:69: DeprecationWarning: The parameter "ln" is deprecated since v2.5.2. Instead of ln=True use new_x=XPos.LMARGIN, new_y=YPos.NEXT.
+  pdf.cell(0, 15, 'TELECOM CUSTOMER', align='C', ln=True)
+C:\Users\Shashank\OneDrive\Desktop\Updated projects\Updated Data-science-Project-TELE-COMMUNICATION--main\Data-science-Project-TELE-COMMUNICATION--main\convert_to_pdf.py:70: DeprecationWarning: The parameter "ln" is deprecated since v2.5.2. Instead of ln=True use new_x=XPos.LMARGIN, new_y=YPos.NEXT.
+  pdf.cell(0, 15, 'CHURN PREDICTION', align='C', ln=True)
+C:\Users\Shashank\OneDrive\Desktop\Updated projects\Updated Data-science-Project-TELE-COMMUNICATION--main\Data-science-Project-TELE-COMMUNICATION--main\convert_to_pdf.py:74: DeprecationWarning: The parameter "ln" is deprecated since v2.5.2. Instead of ln=True use new_x=XPos.LMARGIN, new_y=YPos.NEXT.
+  pdf.cell(0, 10, 'Complete Interview Preparation Guide', align='C', ln=True)
+C:\Users\Shashank\OneDrive\Desktop\Updated projects\Updated Data-science-Project-TELE-COMMUNICATION--main\Data-science-Project-TELE-COMMUNICATION--main\convert_to_pdf.py:78: DeprecationWarning: The parameter "ln" is deprecated since v2.5.2. Instead of ln=True use new_x=XPos.LMARGIN, new_y=YPos.NEXT.
+  pdf.cell(0, 8, 'Project Highlights:', align='C', ln=True)
+C:\Users\Shashank\OneDrive\Desktop\Updated projects\Updated Data-science-Project-TELE-COMMUNICATION--main\Data-science-Project-TELE-COMMUNICATION--main\convert_to_pdf.py:81: DeprecationWarning: The parameter "ln" is deprecated since v2.5.2. Instead of ln=True use new_x=XPos.LMARGIN, new_y=YPos.NEXT.
+  pdf.cell(0, 7, 'Dataset: 3,333 customers | 19 features', align='C', ln=True)
+C:\Users\Shashank\OneDrive\Desktop\Updated projects\Updated Data-science-Project-TELE-COMMUNICATION--main\Data-science-Project-TELE-COMMUNICATION--main\convert_to_pdf.py:82: DeprecationWarning: The parameter "ln" is deprecated since v2.5.2. Instead of ln=True use new_x=XPos.LMARGIN, new_y=YPos.NEXT.
+  pdf.cell(0, 7, 'Best Model: XGBoost Classifier', align='C', ln=True)
+C:\Users\Shashank\OneDrive\Desktop\Updated projects\Updated Data-science-Project-TELE-COMMUNICATION--main\Data-science-Project-TELE-COMMUNICATION--main\convert_to_pdf.py:83: DeprecationWarning: The parameter "ln" is deprecated since v2.5.2. Instead of ln=True use new_x=XPos.LMARGIN, new_y=YPos.NEXT.
+  pdf.cell(0, 7, 'Accuracy: 98% | Recall: 87%', align='C', ln=True)
+C:\Users\Shashank\OneDrive\Desktop\Updated projects\Updated Data-science-Project-TELE-COMMUNICATION--main\Data-science-Project-TELE-COMMUNICATION--main\convert_to_pdf.py:84: DeprecationWarning: The parameter "ln" is deprecated since v2.5.2. Instead of ln=True use new_x=XPos.LMARGIN, new_y=YPos.NEXT.
+  pdf.cell(0, 7, 'Deployment: Streamlit Web App', align='C', ln=True)
+C:\Users\Shashank\OneDrive\Desktop\Updated projects\Updated Data-science-Project-TELE-COMMUNICATION--main\Data-science-Project-TELE-COMMUNICATION--main\convert_to_pdf.py:19: DeprecationWarning: The parameter "ln" is deprecated since v2.5.2. Instead of ln=True use new_x=XPos.LMARGIN, new_y=YPos.NEXT.
+  self.cell(0, 10, title, ln=True)
+C:\Users\Shashank\OneDrive\Desktop\Updated projects\Updated Data-science-Project-TELE-COMMUNICATION--main\Data-science-Project-TELE-COMMUNICATION--main\convert_to_pdf.py:27: DeprecationWarning: The parameter "ln" is deprecated since v2.5.2. Instead of ln=True use new_x=XPos.LMARGIN, new_y=YPos.NEXT.
+  self.cell(0, 8, title, ln=True)
+Traceback (most recent call last):
+  File "C:\Users\Shashank\OneDrive\Desktop\Updated projects\Updated Data-science-Project-TELE-COMMUNICATION--main\Data-science-Project-TELE-COMMUNICATION--main\convert_to_pdf.py", line 102, in <module>
+    pdf.bullet_point('Revenue Loss: Each churned customer = $60-80/month lost')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shashank\OneDrive\Desktop\Updated projects\Updated Data-science-Project-TELE-COMMUNICATION--main\Data-science-Project-TELE-COMMUNICATION--main\convert_to_pdf.py", line 43, in bullet_point
+    self.multi_cell(0, 6, text)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\Shashank\AppData\Roaming\Python\Python313\site-packages\fpdf\fpdf.py", line 242, in wrapper
+    return fn(self, *args, **kwargs)
+  File "C:\Users\Shashank\AppData\Roaming\Python\Python313\site-packages\fpdf\deprecation.py", line 32, in wrapper
+    return fn(self, *args, **kwargs)
+  File "C:\Users\Shashank\AppData\Roaming\Python\Python313\site-packages\fpdf\fpdf.py", line 4550, in multi_cell
+    text_line = multi_line_break.get_line()
+  File "C:\Users\Shashank\AppData\Roaming\Python\Python313\site-packages\fpdf\line_break.py", line 792, in get_line
+    raise FPDFException(
+        "Not enough horizontal space to render a single character"
+    )
+fpdf.errors.FPDFException: Not enough horizontal space to render a single character
